@@ -1,0 +1,35 @@
+# -----------------
+# 가상 환경 (Virtual Environment)
+# -----------------
+# venv 폴더 전체를 무시합니다. 라이브러리는 requirements.txt로 관리하는 것이 원칙입니다.
+venv/
+
+# -----------------
+# 설치된 프로그램 (Cloned Repositories)
+# -----------------
+# 우리가 만든 소스코드가 아닌, git clone으로 받은 프로그램 전체를 무시합니다.
+stable-diffusion-webui/
+
+# -----------------
+# 파이썬 캐시 및 임시 파일 (Python Cache)
+# -----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------
+# 생성된 결과물 (Generated Outputs)
+# -----------------
+# 스크립트를 실행해서 나온 이미지나 로그 파일은 커밋할 필요가 없습니다.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.log
+
+# -----------------
+# 운영체제 및 에디터 설정 파일 (OS & Editor specific)
+# -----------------
+.DS_Store
+.vscode/
