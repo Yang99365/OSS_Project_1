@@ -2,7 +2,7 @@ import requests
 import json
 
 # AI 엔진(A1111 WebUI) 주소
-WEBUI_URL = "http://127.0.0.1:7860"
+WEBUI_URL = "https://5161fef20484.ngrok-free.app"
 
 try:
     print(f"엔진({WEBUI_URL})에게 ControlNet 모델 목록을 요청합니다...")
